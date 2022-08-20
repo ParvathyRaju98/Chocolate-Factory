@@ -1,3 +1,31 @@
 * {
-    
+
+}
+
+body{
+    background-color:rgb(59, 32, 0);
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav{
+    background-color: rgb(107, 32, 0);
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li{
+    display: inline-block;
+    float: left;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: blanchedalmond;
 }
