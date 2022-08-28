@@ -82,6 +82,17 @@ body{
   .column img {
     margin-top: 12px;
   }
+
+  .column3 {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  .column3 img {
+    margin-top: 12px;
+  }
   
   /* Clear floats after the columns */
   .row:after {

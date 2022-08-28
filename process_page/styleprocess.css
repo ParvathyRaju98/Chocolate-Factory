@@ -1,5 +1,5 @@
 * {
-
+    box-sizing: border-box;
 }
 
 body{
@@ -35,4 +35,32 @@ body{
 .navbar a:hover{
     background-color: #1d1100;
     color: rgb(240, 248, 255, 0.7);
+}
+
+.column1 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .column1 img {
+    margin-top: 12px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .center-text{
+    background-color: #512f05;
+    padding: 100px 180px;
+    text-align: center;
+}
+
+.center-text p{
+    font-size: 16px;
+    line-height: 25px;
 }
